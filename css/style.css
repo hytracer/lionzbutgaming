@@ -1,0 +1,50 @@
+@font-face {
+    font-family: mono;
+    src: url("/fonts/mono.ttf"); 
+  }
+
+@font-face {
+    font-family: derk;
+    src: url("/fonts/derk.otf");
+  }
+    html {
+    font-family: mono;
+  }
+
+Video {  /* video stuff pos and shit yeaaaa */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+    .content { /* zzzzzzzzzzzzzzzzzzzz content box and shiiii yareadyknow nigg */
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: 0px;
+    width: 50%;
+    text-align: center;
+    background: transparent;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+/* hyperlink shit */
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  } /* end hyperlink shit */
