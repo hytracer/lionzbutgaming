@@ -70,10 +70,13 @@ Video {  /* video stuff pos and shit yeaaaa */
   align-items: center;
   justify-content: center;
   }
+  .container .overlay {
+    filter: brightness(100%);
+  }
   .overlay {
     z-index: 1;
     background: rgba(0, 0, 0, 0.5);
-    background-image: url("/images/loli.jpg");
+    background-image: url("/images/laffeyy.png");
     background-size: cover;
   }
   .overlay label {
